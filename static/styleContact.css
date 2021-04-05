@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap');
+
+h1{
+    font-family: 'Baloo Paaji 2', cursive;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 12px;
+}
+
+.container{
+    min-height: 78vh;
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.myInput{
+    width: 60%;
+    padding: 6px 12px;
+    margin: 14px;
+    border: 2px solid rgb(221, 118, 118);
+    border-radius: 12px;
+    outline: none;
+}
+
+.btn{
+    padding: 7px 16px;
+    font-size: 0.9rem;
+    border: 2px solid rgb(221, 118, 118);
+    border-radius: 12px 12px;
+    color: whitesmoke;
+    background-color: black;
+    margin: 12px ;
+    outline: none;
+    cursor: pointer;
+}
